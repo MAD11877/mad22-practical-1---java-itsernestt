@@ -9,8 +9,11 @@ public class Question3
      * 
      * Hint: in.nextInt() to read integer
      */
-     
+    System.out.println("Enter a number to multiply by itself: "); 
     Scanner in = new Scanner(System.in);
+    double number = in.nextInt();
+    double calculatedNo = number * number;
+    System.out.println("The calculated number is " + calculatedNo);
     
   }
 }
