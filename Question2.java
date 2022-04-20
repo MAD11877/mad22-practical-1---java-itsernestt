@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Question2
@@ -9,8 +10,11 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
+    System.out.println("Enter height in 'cm' followed by weight in 'kg'"); 
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
+    double weight = in.nextDouble();
+    System.out.println("Your height is " + height + "cm");
+    System.out.println("Your weight is " + weight + "kg");
   }
 }
